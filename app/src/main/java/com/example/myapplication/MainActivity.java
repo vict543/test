@@ -13,5 +13,12 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.txv);
         textView.setText("321");
+
+        addMaster();
+    }
+
+    public void addMaster() {
+        TextView textView = findViewById(R.id.txv);
+        textView.setText("MASTER");
     }
 }
